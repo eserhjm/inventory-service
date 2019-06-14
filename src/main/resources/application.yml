@@ -49,6 +49,8 @@ springfox:
 
 management:
   endpoints:
+    health:
+      show-details: always
     web:
       exposure:
         include: "*"
